@@ -1,7 +1,7 @@
 Event Management System in C++
-
+----------------------------------------------------------------------------------------------------------
 A console-based Event Management System implemented in C++. It allows users to add, view, search, update, and delete events with details like name, date, time, and venue. All data is persistently stored in a text file (events.txt) so information is retained between program runs.
-
+----------------------------------------------------------------------------------------------------------
 Features
 
 Add Event – Enter new events with full details.
@@ -17,7 +17,7 @@ Delete Event – Remove events from the system.
 Persistent Storage – Automatically saves and loads events.
 
 User-Friendly Menu – Simple console-based navigation.
-
+----------------------------------------------------------------------------------------------------------
 How It Works
 
 Events are stored in a vector of Event objects.
@@ -31,6 +31,7 @@ if (events[i].eventName == name)
 Changes (add, update, delete) are immediately saved to the file.
 
 On startup, the program loads all events from the file.
+----------------------------------------------------------------------------------------------------------
 
 How to Run
 g++ main.cpp -o EventApp
